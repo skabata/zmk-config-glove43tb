@@ -22,15 +22,15 @@
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        // 軸の入れ替え（XY_SWAP）を追加して向きを補正
-        input-processors = <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>, <&zip_temp_layer 4 700>;
+        // XY_SWAP に Y_INVERT を追加して上下反転を修正
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>, <&zip_temp_layer 4 700>;
     
         scroller {
             layers = <5>;
             input-processors = <
                 &zip_xy_to_scroll_mapper
-                // スクロール側も軸を入れ替え
-                &zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT)
+                // スクロール側も同様に修正
+                &zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT)
                 &zip_scroll_scaler 1 16
             >;
         };
