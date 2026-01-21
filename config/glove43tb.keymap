@@ -131,10 +131,10 @@
 
         symbol {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                      &trans  &trans  &trans            &trans             &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp LSHFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans            &trans             &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &none   &trans                                               &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans  &kp MINUS         &kp EQUAL          &kp DEL
+&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&kp LSHFT   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans            &trans             &trans
+&trans      &trans  &trans  &trans  &trans  &trans      &none   &trans                                               &trans
             >;
         };
 
