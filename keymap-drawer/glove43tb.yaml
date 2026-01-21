@@ -36,10 +36,10 @@ layers:
   - .
   - /
   - LCTRL
-  - LEFT WIN
-  - LEFT ALT
-  - ''
-  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LWIN
+  - {t: SPACE, h: LEFT ALT}
   - LANG2
   - {t: LANG1, h: symbol}
   - {t: ENTER, h: NUMFUNC}
