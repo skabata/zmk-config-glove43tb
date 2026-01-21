@@ -61,9 +61,9 @@ layers:
   - F4
   - F5
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - F6
-  - F7
+  - F6
+  - UP ARROW
   - F8
   - F9
   - F10
@@ -75,9 +75,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - UP ARROW
-  - DOWN
-  - RIGHT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - {t: ▽, type: trans}
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
