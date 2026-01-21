@@ -109,10 +109,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R  &kp T                                          &kp Y        &kp U  &lt 3 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F  &kp G      &kp LS(LG(S))       &kp SQT         &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B      &trans              &kp SEMICOLON   &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &none  &kp SPACE  &kp LANGUAGE_2      &kp LANGUAGE_1  &lt 1 ENTER                             &kp BACKSPACE
+&kp Q             &kp W         &kp E         &kp R  &kp T                                        &kp Y        &kp U  &lt 4 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F  &kp G      &kp LS(LG(S))      &kp SQT        &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V  &kp B      &trans             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &none  &kp SPACE  &kp LANG2          &lt 2 LANG1    &lt 1 ENTER                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
@@ -120,13 +120,22 @@
 
         NUMFUNC {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7          &kp N8     &kp N9  &kp N0
-&kp F1          &kp F2        &kp F3        &kp F4        &kp F5  &trans      &kp F6  &kp F6        &kp UP_ARROW    &kp F8     &kp F9  &kp F10
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans      &trans  &kp LEFT      &kp DOWN_ARROW  &kp RIGHT  &trans  &kp F11
-&trans          &trans        &trans        &trans        &trans  &trans      &trans  &none                                            &kp F12
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7          &kp N8          &kp N9     &kp N0
+&kp F1          &kp F2        &kp F3        &kp F4        &kp F5  &trans      &kp F6  &kp F7        &kp F8          &kp UP_ARROW    &kp F9     &kp F10
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans  &trans      &trans  &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp F11
+&trans          &trans        &trans        &trans        &trans  &trans      &trans  &none                                                    &kp F12
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
+        };
+
+        symbol {
+            bindings = <
+&trans     &trans  &trans  &trans  &trans                      &trans  &trans  &trans            &trans             &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans            &trans             &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &none   &trans                                               &trans
+            >;
         };
 
         MOUSE {
