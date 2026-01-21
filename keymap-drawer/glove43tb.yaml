@@ -40,8 +40,8 @@ layers:
   - LEFT ALT
   - ''
   - SPACE
-  - ''
-  - ''
+  - LANGUAGE 2
+  - LANGUAGE 1
   - {t: ENTER, h: NUMFUNC}
   - BACKSPACE
   NUMFUNC:
