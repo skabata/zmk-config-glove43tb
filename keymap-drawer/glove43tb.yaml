@@ -40,8 +40,8 @@ layers:
   - {t: ▽, type: trans}
   - LWIN
   - {t: SPACE, h: LEFT ALT}
-  - {t: LANG2, h: NUMFUNC}
-  - {t: LANG1, h: symbol}
+  - {t: LANG2, h: symbol}
+  - {t: LANG1, h: NUMFUNC}
   - {t: ENTER, h: allow}
   - BACKSPACE
   symbol:
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMFUNC:
@@ -128,8 +128,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - F12
   allow:
