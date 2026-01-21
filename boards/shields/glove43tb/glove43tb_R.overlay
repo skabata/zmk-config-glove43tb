@@ -23,7 +23,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         // XY_SWAP に Y_INVERT を追加して上下反転を修正
-        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>, <&zip_temp_layer 4 700>;
+        input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>, <&zip_temp_layer 4 300>;
     
         scroller {
             layers = <5>;
@@ -31,7 +31,7 @@
                 &zip_xy_to_scroll_mapper
                 // スクロール側も同様に修正
                 &zip_scroll_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT)
-                &zip_scroll_scaler 1 16
+                &zip_scroll_scaler 1 8
             >;
         };
     };
