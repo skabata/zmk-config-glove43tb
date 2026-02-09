@@ -37,11 +37,11 @@ layers:
   - /
   - LCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: TAB, h: develop}
   - LWIN
   - {t: SPACE, h: LEFT ALT}
-  - {t: LANG2, h: symbol}
-  - {t: LANG1, h: NUMFUNC}
+  - {t: CAPSLOCK, h: symbol}
+  - {t: ▽, type: trans}
   - {t: ENTER, h: allow}
   - BACKSPACE
   symbol:
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - ''
   - {t: ▽, type: trans}
   - F12
   allow:
@@ -301,7 +301,7 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
