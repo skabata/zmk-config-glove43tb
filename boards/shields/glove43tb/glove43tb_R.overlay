@@ -73,8 +73,6 @@
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
-        invert-y;     // マウス操作のY軸を反転
-        invert-x;
         cpi = <600>;  // マウス感度
     };
 };
