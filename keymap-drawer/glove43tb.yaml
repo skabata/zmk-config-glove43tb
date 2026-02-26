@@ -39,7 +39,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '6', h: toggle}
   - LEFT WIN
-  - LEFT ALT
+  - {t: SPACE, h: LEFT ALT}
   - {t: LANG2, h: FUNCTION}
   - {t: LANGUAGE 1, h: NUM}
   - {t: ENTER, h: ARROW}
@@ -184,7 +184,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
