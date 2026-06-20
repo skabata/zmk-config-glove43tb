@@ -115,7 +115,7 @@
 &kp LCTRL         &trans  &to 6  &kp LEFT_WIN  &mt LEFT_ALT SPACE  &lt 1 LANG2        &lt 2 LANGUAGE_1  &lt 3 ENTER                             &kp BACKSPACE
             >;
 
-            sensor-bindings = <&mouse_wheel_scroll SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&mouse_wheel_scroll SCRL_LEFT SCRL_RIGHT>;
         };
 
         FUNCTION {
